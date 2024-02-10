@@ -1,0 +1,19 @@
+{
+  "name": "fixit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./public/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3",
+    "flowbite": "^2.2.1"
+  }
+}
